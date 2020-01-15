@@ -5,11 +5,11 @@
 
 ```shell
 virt-install --name=centos-node1-0113 \
---os-variant=rhel6 --ram=4096 --vcpus=2 \
+--ram=4096 --vcpus=2 \
 --disk /data/virtualdisk\centos-node1-0113.img,sparse=false,bus=virtio,size=100 \
 --cdrom=/root/Download/CentOS-7-x86_64-Minimal-1810.iso\
 --network bridge=br2 \
---vnc --vncport=5920 --vnclisten=0.0.0.0 \
+--vnc --vncport=5921 --vnclisten=0.0.0.0 \
 --noautoconsole --force --autostart
 ```
 #### ②.虚拟机相关操作
