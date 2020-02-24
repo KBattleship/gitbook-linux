@@ -12,6 +12,7 @@ virt-install --name=centos-node1-0113 \
 --vnc --vncport=5921 --vnclisten=0.0.0.0 \
 --noautoconsole --force --autostart
 ```
+
 #### ②.虚拟机相关操作
 
 ```shell
