@@ -103,9 +103,36 @@ brctl show
     NM_CONTROLLED=no
     USERCTL=no
     ONBOOT=yes
-    IPADDR=10.106.36.142
-    GATEWAY=10.106.36.1
-    NETMASK=255.255.255.0
+    IPADDR=60.206.36.164
+    GATEWAY=60.206.36.129
+    NETMASK=255.255.255.128
     DNS1=114.114.114.114
     ARPCHECK=no
     ```
+    
+    
+    
+### 2.关于宿主机网桥配置
+1.物理网卡配置
+```shell
+TYPE="Ethernet"
+BOOTPROTO="no"
+DEFROUTE="yes"
+NAME="em1"
+UUID="d4b9c4cb-b04c-4d91-9e9c-bc1b0c47a416"
+DEVICE="em1"
+ONBOOT="yes"
+BRIDGE="br0"
+```
+2.网桥配置
+```shell
+TYPE="Bridge"
+BOOTPROTO="static"
+DEVICE="br0"
+NAME="br0"
+ONBOOT="yes"
+IPADDR="10.36.24.180"
+NETMASK="255.255.255.0"
+GATEWAY="10.36.24.1"
+NM_CONTROLLED="no"
+```
