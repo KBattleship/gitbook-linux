@@ -1,3 +1,13 @@
+---
+title: "CentOS修改系统镜像源"
+date: 2019-11-12T01:36:27+08:00
+lastmod: 2019-11-12T01:36:27+08:00
+keywords: ['linux']
+description: ""
+tags: ['centos','Linux','repos']
+categories: ['linux']
+author: ""
+---
 # CentOS修改系统镜像源
 ### 一.备份当前源
 ```shell

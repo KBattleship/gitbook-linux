@@ -1,4 +1,14 @@
-## vim
+---
+title: "1.Linux-Vim"
+date: 2019-11-12T01:36:27+08:00
+lastmod: 2019-11-12T01:36:27+08:00
+keywords: ['linux']
+description: ""
+tags: ['vim','Linux','command']
+categories: ['linux']
+author: ""
+---
+# vim
 
 #### 1.基本操作命令
 #### 普通模式(Normal)

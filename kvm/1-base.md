@@ -1,3 +1,13 @@
+---
+title: "1.KVM入门"
+date: 2019-10-12T01:36:27+08:00
+lastmod: 2019-10-12T01:36:27+08:00
+keywords: ['middleware']
+description: ""
+tags: ['kvm','Linux','虚拟机','网桥']
+categories: ['middleware']
+author: ""
+---
 # KVM入门
 ---
 ### 1.基础操作

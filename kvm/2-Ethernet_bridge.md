@@ -1,3 +1,13 @@
+---
+title: "2.KVM-双网卡网关配置"
+date: 2019-10-12T01:36:27+08:00
+lastmod: 2019-10-12T01:36:27+08:00
+keywords: ['middleware']
+description: ""
+tags: ['kvm','Linux','虚拟机','双网卡']
+categories: ['middleware']
+author: ""
+---
 # 双网卡网关配置
 
 1.在系统路由表文件`/etc/iproute2/rt_tables`增加配置
